@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/_deps/googletest-src/googletest
 
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17
 

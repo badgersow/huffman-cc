@@ -5,9 +5,12 @@
 #ifndef HUFFMAN_HUFFMANENCODER_H
 #define HUFFMAN_HUFFMANENCODER_H
 
+#include "string"
 
 class HuffmanEncoder {
+public:
     HuffmanEncoder(const std::string &input_filename, const std::string &output_filename);
+
     void encode();
 };
 

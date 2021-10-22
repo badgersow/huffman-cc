@@ -3,3 +3,11 @@
 //
 
 #include "HuffmanEncoder.h"
+
+HuffmanEncoder::HuffmanEncoder(const std::string &input_filename, const std::string &output_filename) {
+
+}
+
+void HuffmanEncoder::encode() {
+
+}
