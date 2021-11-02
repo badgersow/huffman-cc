@@ -8,10 +8,9 @@
 #include "string"
 
 class HuffmanDecoder {
-public:
-    HuffmanDecoder(const std::string &input_file, const std::string &output_file);
-    void decode();
+ public:
+  HuffmanDecoder(const std::string &input_file, const std::string &output_file);
+  void decode();
 };
-
 
 #endif //HUFFMAN_HUFFMANDECODER_H

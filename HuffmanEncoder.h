@@ -8,11 +8,10 @@
 #include "string"
 
 class HuffmanEncoder {
-public:
-    HuffmanEncoder(const std::string &input_filename, const std::string &output_filename);
+ public:
+  HuffmanEncoder(const std::string &input_filename, const std::string &output_filename);
 
-    void encode();
+  void encode();
 };
-
 
 #endif //HUFFMAN_HUFFMANENCODER_H
