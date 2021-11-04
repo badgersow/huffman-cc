@@ -30,8 +30,8 @@ TEST (HuffmanRoundtripTest, HelloWorld) {
   round_trip(originalFile, tempFile);
 
   FileHelper helper;
-  const std::vector<unsigned char> originalContents = helper.readFile(originalFile);
-  const std::vector<unsigned char> actualContents = helper.readFile(tempFile);
+  const std::vector<char> originalContents = helper.readFile(originalFile);
+  const std::vector<char> actualContents = helper.readFile(tempFile);
 
   ASSERT_EQ(originalContents, actualContents);
 }

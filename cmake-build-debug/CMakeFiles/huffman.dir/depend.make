@@ -5,9 +5,11 @@ CMakeFiles/huffman.dir/FileHelper.cc.o: \
  ../FileHelper.cc \
  ../FileHelper.h
 CMakeFiles/huffman.dir/HuffmanDecoder.cc.o: \
+ ../FileHelper.h \
  ../HuffmanDecoder.cc \
  ../HuffmanDecoder.h
 CMakeFiles/huffman.dir/HuffmanEncoder.cc.o: \
+ ../FileHelper.h \
  ../HuffmanEncoder.cc \
  ../HuffmanEncoder.h
 CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o: \

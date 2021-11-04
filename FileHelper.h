@@ -9,7 +9,8 @@
 
 class FileHelper {
  public:
-  std::vector<unsigned char> readFile(const std::string &filename);
+  std::vector<char> readFile(const std::string &filename) const;
+  void writeFile(const std::string &filename, const std::vector<char> &contents) const;
 };
 
 #endif //HUFFMAN_FILEHELPER_H
