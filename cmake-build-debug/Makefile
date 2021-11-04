@@ -226,6 +226,30 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+ByteFrequencies.o: ByteFrequencies.cc.o
+.PHONY : ByteFrequencies.o
+
+# target to build an object file
+ByteFrequencies.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/ByteFrequencies.cc.o
+.PHONY : ByteFrequencies.cc.o
+
+ByteFrequencies.i: ByteFrequencies.cc.i
+.PHONY : ByteFrequencies.i
+
+# target to preprocess a source file
+ByteFrequencies.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/ByteFrequencies.cc.i
+.PHONY : ByteFrequencies.cc.i
+
+ByteFrequencies.s: ByteFrequencies.cc.s
+.PHONY : ByteFrequencies.s
+
+# target to generate assembly for a file
+ByteFrequencies.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/ByteFrequencies.cc.s
+.PHONY : ByteFrequencies.cc.s
+
 FileHelper.o: FileHelper.cc.o
 .PHONY : FileHelper.o
 
@@ -249,6 +273,54 @@ FileHelper.s: FileHelper.cc.s
 FileHelper.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/FileHelper.cc.s
 .PHONY : FileHelper.cc.s
+
+HuffmanAlgorithm.o: HuffmanAlgorithm.cc.o
+.PHONY : HuffmanAlgorithm.o
+
+# target to build an object file
+HuffmanAlgorithm.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o
+.PHONY : HuffmanAlgorithm.cc.o
+
+HuffmanAlgorithm.i: HuffmanAlgorithm.cc.i
+.PHONY : HuffmanAlgorithm.i
+
+# target to preprocess a source file
+HuffmanAlgorithm.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.i
+.PHONY : HuffmanAlgorithm.cc.i
+
+HuffmanAlgorithm.s: HuffmanAlgorithm.cc.s
+.PHONY : HuffmanAlgorithm.s
+
+# target to generate assembly for a file
+HuffmanAlgorithm.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.s
+.PHONY : HuffmanAlgorithm.cc.s
+
+HuffmanAlgorithmTest.o: HuffmanAlgorithmTest.cc.o
+.PHONY : HuffmanAlgorithmTest.o
+
+# target to build an object file
+HuffmanAlgorithmTest.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o
+.PHONY : HuffmanAlgorithmTest.cc.o
+
+HuffmanAlgorithmTest.i: HuffmanAlgorithmTest.cc.i
+.PHONY : HuffmanAlgorithmTest.i
+
+# target to preprocess a source file
+HuffmanAlgorithmTest.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.i
+.PHONY : HuffmanAlgorithmTest.cc.i
+
+HuffmanAlgorithmTest.s: HuffmanAlgorithmTest.cc.s
+.PHONY : HuffmanAlgorithmTest.s
+
+# target to generate assembly for a file
+HuffmanAlgorithmTest.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.s
+.PHONY : HuffmanAlgorithmTest.cc.s
 
 HuffmanDecoder.o: HuffmanDecoder.cc.o
 .PHONY : HuffmanDecoder.o
@@ -322,6 +394,30 @@ HuffmanRoundtripTest.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.s
 .PHONY : HuffmanRoundtripTest.cc.s
 
+PrefixCodes.o: PrefixCodes.cc.o
+.PHONY : PrefixCodes.o
+
+# target to build an object file
+PrefixCodes.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/PrefixCodes.cc.o
+.PHONY : PrefixCodes.cc.o
+
+PrefixCodes.i: PrefixCodes.cc.i
+.PHONY : PrefixCodes.i
+
+# target to preprocess a source file
+PrefixCodes.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/PrefixCodes.cc.i
+.PHONY : PrefixCodes.cc.i
+
+PrefixCodes.s: PrefixCodes.cc.s
+.PHONY : PrefixCodes.s
+
+# target to generate assembly for a file
+PrefixCodes.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/huffman.dir/build.make CMakeFiles/huffman.dir/PrefixCodes.cc.s
+.PHONY : PrefixCodes.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -339,9 +435,18 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... huffman"
+	@echo "... ByteFrequencies.o"
+	@echo "... ByteFrequencies.i"
+	@echo "... ByteFrequencies.s"
 	@echo "... FileHelper.o"
 	@echo "... FileHelper.i"
 	@echo "... FileHelper.s"
+	@echo "... HuffmanAlgorithm.o"
+	@echo "... HuffmanAlgorithm.i"
+	@echo "... HuffmanAlgorithm.s"
+	@echo "... HuffmanAlgorithmTest.o"
+	@echo "... HuffmanAlgorithmTest.i"
+	@echo "... HuffmanAlgorithmTest.s"
 	@echo "... HuffmanDecoder.o"
 	@echo "... HuffmanDecoder.i"
 	@echo "... HuffmanDecoder.s"
@@ -351,6 +456,9 @@ help:
 	@echo "... HuffmanRoundtripTest.o"
 	@echo "... HuffmanRoundtripTest.i"
 	@echo "... HuffmanRoundtripTest.s"
+	@echo "... PrefixCodes.o"
+	@echo "... PrefixCodes.i"
+	@echo "... PrefixCodes.s"
 .PHONY : help
 
 

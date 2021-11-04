@@ -3,7 +3,6 @@
 //
 
 #include "gtest/gtest.h"
-#include "iostream"
 #include "FileHelper.h"
 #include "HuffmanEncoder.h"
 #include "HuffmanDecoder.h"

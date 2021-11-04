@@ -20,7 +20,15 @@ add_executable(huffman
         HuffmanEncoder.cc
         HuffmanDecoder.h
         HuffmanDecoder.cc
+        PrefixCodes.h
+        PrefixCodes.cc
+        ByteFrequencies.h
+        ByteFrequencies.cc
+        HuffmanAlgorithm.h
+        HuffmanAlgorithm.cc
         # Tests
-        HuffmanRoundtripTest.cc)
+        HuffmanRoundtripTest.cc
+        HuffmanAlgorithmTest.cc
+        )
 target_link_libraries(huffman gtest_main)
 add_test(NAME HuffmanRoundtripTest COMMAND huffman)

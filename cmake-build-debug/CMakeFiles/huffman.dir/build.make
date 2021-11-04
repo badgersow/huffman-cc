@@ -105,9 +105,48 @@ CMakeFiles/huffman.dir/HuffmanDecoder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/HuffmanDecoder.cc.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/epyshnograev/workspace/cc/huffman/HuffmanDecoder.cc -o CMakeFiles/huffman.dir/HuffmanDecoder.cc.s
 
+CMakeFiles/huffman.dir/PrefixCodes.cc.o: CMakeFiles/huffman.dir/flags.make
+CMakeFiles/huffman.dir/PrefixCodes.cc.o: ../PrefixCodes.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/huffman.dir/PrefixCodes.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/huffman.dir/PrefixCodes.cc.o -c /Users/epyshnograev/workspace/cc/huffman/PrefixCodes.cc
+
+CMakeFiles/huffman.dir/PrefixCodes.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffman.dir/PrefixCodes.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/epyshnograev/workspace/cc/huffman/PrefixCodes.cc > CMakeFiles/huffman.dir/PrefixCodes.cc.i
+
+CMakeFiles/huffman.dir/PrefixCodes.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/PrefixCodes.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/epyshnograev/workspace/cc/huffman/PrefixCodes.cc -o CMakeFiles/huffman.dir/PrefixCodes.cc.s
+
+CMakeFiles/huffman.dir/ByteFrequencies.cc.o: CMakeFiles/huffman.dir/flags.make
+CMakeFiles/huffman.dir/ByteFrequencies.cc.o: ../ByteFrequencies.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/huffman.dir/ByteFrequencies.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/huffman.dir/ByteFrequencies.cc.o -c /Users/epyshnograev/workspace/cc/huffman/ByteFrequencies.cc
+
+CMakeFiles/huffman.dir/ByteFrequencies.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffman.dir/ByteFrequencies.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/epyshnograev/workspace/cc/huffman/ByteFrequencies.cc > CMakeFiles/huffman.dir/ByteFrequencies.cc.i
+
+CMakeFiles/huffman.dir/ByteFrequencies.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/ByteFrequencies.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/epyshnograev/workspace/cc/huffman/ByteFrequencies.cc -o CMakeFiles/huffman.dir/ByteFrequencies.cc.s
+
+CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o: CMakeFiles/huffman.dir/flags.make
+CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o: ../HuffmanAlgorithm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o -c /Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithm.cc
+
+CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithm.cc > CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.i
+
+CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithm.cc -o CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.s
+
 CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o: CMakeFiles/huffman.dir/flags.make
 CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o: ../HuffmanRoundtripTest.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o -c /Users/epyshnograev/workspace/cc/huffman/HuffmanRoundtripTest.cc
 
 CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.i: cmake_force
@@ -118,12 +157,29 @@ CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/epyshnograev/workspace/cc/huffman/HuffmanRoundtripTest.cc -o CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.s
 
+CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o: CMakeFiles/huffman.dir/flags.make
+CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o: ../HuffmanAlgorithmTest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o -c /Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithmTest.cc
+
+CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithmTest.cc > CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.i
+
+CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithmTest.cc -o CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.s
+
 # Object files for target huffman
 huffman_OBJECTS = \
 "CMakeFiles/huffman.dir/FileHelper.cc.o" \
 "CMakeFiles/huffman.dir/HuffmanEncoder.cc.o" \
 "CMakeFiles/huffman.dir/HuffmanDecoder.cc.o" \
-"CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o"
+"CMakeFiles/huffman.dir/PrefixCodes.cc.o" \
+"CMakeFiles/huffman.dir/ByteFrequencies.cc.o" \
+"CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o" \
+"CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o" \
+"CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o"
 
 # External object files for target huffman
 huffman_EXTERNAL_OBJECTS =
@@ -131,12 +187,16 @@ huffman_EXTERNAL_OBJECTS =
 huffman: CMakeFiles/huffman.dir/FileHelper.cc.o
 huffman: CMakeFiles/huffman.dir/HuffmanEncoder.cc.o
 huffman: CMakeFiles/huffman.dir/HuffmanDecoder.cc.o
+huffman: CMakeFiles/huffman.dir/PrefixCodes.cc.o
+huffman: CMakeFiles/huffman.dir/ByteFrequencies.cc.o
+huffman: CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o
 huffman: CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o
+huffman: CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o
 huffman: CMakeFiles/huffman.dir/build.make
 huffman: lib/libgtest_maind.a
 huffman: lib/libgtestd.a
 huffman: CMakeFiles/huffman.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable huffman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable huffman"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/huffman.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

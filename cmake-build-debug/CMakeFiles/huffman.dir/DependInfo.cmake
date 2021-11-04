@@ -8,10 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/epyshnograev/workspace/cc/huffman/ByteFrequencies.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/ByteFrequencies.cc.o"
   "/Users/epyshnograev/workspace/cc/huffman/FileHelper.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/FileHelper.cc.o"
+  "/Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithm.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanAlgorithm.cc.o"
+  "/Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithmTest.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanAlgorithmTest.cc.o"
   "/Users/epyshnograev/workspace/cc/huffman/HuffmanDecoder.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanDecoder.cc.o"
   "/Users/epyshnograev/workspace/cc/huffman/HuffmanEncoder.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanEncoder.cc.o"
   "/Users/epyshnograev/workspace/cc/huffman/HuffmanRoundtripTest.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o"
+  "/Users/epyshnograev/workspace/cc/huffman/PrefixCodes.cc" "/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/CMakeFiles/huffman.dir/PrefixCodes.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

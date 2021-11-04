@@ -316,10 +316,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/ByteFrequencies.cc">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/ByteFrequencies.h">
+			<Option target="huffman"/>
+		</Unit>
 		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/FileHelper.cc">
 			<Option target="huffman"/>
 		</Unit>
 		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/FileHelper.h">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithm.cc">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithm.h">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/HuffmanAlgorithmTest.cc">
 			<Option target="huffman"/>
 		</Unit>
 		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/HuffmanDecoder.cc">
@@ -335,6 +350,12 @@
 			<Option target="huffman"/>
 		</Unit>
 		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/HuffmanRoundtripTest.cc">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/PrefixCodes.cc">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/PrefixCodes.h">
 			<Option target="huffman"/>
 		</Unit>
 		<Unit filename="/Users/epyshnograev/workspace/cc/huffman/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
