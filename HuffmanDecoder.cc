@@ -3,11 +3,13 @@
 //
 
 #include "HuffmanDecoder.h"
+
+#include <utility>
 #include "FileHelper.h"
 
-HuffmanDecoder::HuffmanDecoder(const std::string &input_filename, const std::string &output_filename) :
-    input_filename(input_filename),
-    output_filename(output_filename) {
+HuffmanDecoder::HuffmanDecoder(std::string input_filename, std::string output_filename) :
+    input_filename(std::move(input_filename)),
+    output_filename(std::move(output_filename)) {
 }
 
 void HuffmanDecoder::decode() {

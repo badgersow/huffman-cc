@@ -6,9 +6,9 @@
 #include "HuffmanEncoder.h"
 #include "fstream"
 
-HuffmanEncoder::HuffmanEncoder(const std::string &input_filename, const std::string &output_filename) :
-    input_filename(input_filename),
-    output_filename(output_filename) {
+HuffmanEncoder::HuffmanEncoder(std::string input_filename, std::string output_filename) :
+    input_filename(std::move(input_filename)),
+    output_filename(std::move(output_filename)) {
 }
 
 void HuffmanEncoder::encode() {

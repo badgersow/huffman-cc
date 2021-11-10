@@ -12,7 +12,7 @@ class HuffmanEncoder {
   const std::string input_filename;
   const std::string output_filename;
  public:
-  HuffmanEncoder(const std::string &input_filename, const std::string &output_filename);
+  HuffmanEncoder(std::string input_filename, std::string output_filename);
 
   void encode();
 };
