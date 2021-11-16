@@ -42,9 +42,12 @@ CMakeFiles/huffman.dir/HuffmanDecoder.cc.o: \
  ../HuffmanDecoder.cc \
  ../HuffmanDecoder.h
 CMakeFiles/huffman.dir/HuffmanEncoder.cc.o: \
+ ../ByteFrequencies.h \
  ../FileHelper.h \
+ ../HuffmanAlgorithm.h \
  ../HuffmanEncoder.cc \
- ../HuffmanEncoder.h
+ ../HuffmanEncoder.h \
+ ../PrefixCodes.h
 CMakeFiles/huffman.dir/HuffmanRoundtripTest.cc.o: \
  ../FileHelper.h \
  ../HuffmanDecoder.h \

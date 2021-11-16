@@ -11,5 +11,5 @@ TEST(HuffmanAlgorithmTest, SingleByte) {
   const HuffmanAlgorithm algorithm;
   const PrefixCodes codes = algorithm.create(freq);
 
-  ASSERT_EQ(codes.encode('a'), std::vector<bool>(false));
+  ASSERT_EQ(codes.encode('a').size(), 1);
 }
