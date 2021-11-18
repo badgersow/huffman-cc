@@ -12,6 +12,7 @@ class ByteFrequencies {
   const std::unordered_map<char, int> frequencies;
  public:
   ByteFrequencies(const std::unordered_map<char, int> &freq);
+  std::unordered_map<char, int> getFrequencies() const;
 };
 
 #endif //HUFFMAN__BYTEFREQUENCIES_H_

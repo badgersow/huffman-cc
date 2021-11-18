@@ -6,3 +6,6 @@
 ByteFrequencies::ByteFrequencies(const std::unordered_map<char, int> &freq) :
     frequencies(freq) {
 }
+std::unordered_map<char, int> ByteFrequencies::getFrequencies() const {
+  return frequencies;
+}

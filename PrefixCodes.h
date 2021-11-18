@@ -10,11 +10,14 @@
 
 class PrefixCodes {
  private:
-  std::unordered_map<char, const std::vector<bool>> encoding;
+  const std::unordered_map<char, std::vector<bool>> encoding;
  public:
+  explicit PrefixCodes(std::unordered_map<char, std::vector<bool>> encoding);
+  static PrefixCodes readFromFile(std::fstream &stream);
+  void writeCodesToFile(std::fstream &output) const;
+  void encodeContent(const std::vector<char> &contents, std::fstream &output) const;
   PrefixCodes();
-  PrefixCodes(const std::unordered_map<char, const std::vector<bool>> &encoding);
-  const std::vector<bool> &encode(const char byte) const;
+  std::vector<bool> encode(char byte) const;
 };
 
 #endif //HUFFMAN__PREFIXCODES_H_
